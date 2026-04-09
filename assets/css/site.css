@@ -160,6 +160,10 @@ main {
   max-width: none;
 }
 
+.hero-copy h1 {
+  max-width: none;
+}
+
 .eyebrow {
   margin: 0 0 0.6rem;
   color: var(--accent);
