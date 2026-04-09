@@ -20,41 +20,54 @@
     </header>
 
     <main id="top">
-      <section class="hero section-card" id="overview">
-        <div class="hero-copy">
-          <p class="eyebrow">Research Hub</p>
-          <h1>Spacekime project materials in one place.</h1>
-          <p class="lead">
-            This site gathers the current Spacekime videos, audio, diagrams, and papers into a single GitHub Pages experience so a visitor can move from the big-picture architecture to the supporting documents without leaving the browser.
-          </p>
-          <p>
-            Across the collection, the project appears to explore Spacekime as a conceptual framework with extensions into structure, incompleteness, collapse, consciousness, and theology. The homepage is organized to help a first-time reader start visually, then move into talks, audio, and the longer papers.
-          </p>
-          <div class="cta-row">
-            <a class="button button-primary" href="#architecture">View Architecture Carousel</a>
-            <a class="button button-secondary" href="#papers">Read the Papers</a>
+      <section class="section-card overview-section" id="overview">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Research Hub</p>
+            <h1>Spacekime project materials in one place.</h1>
+            <p class="lead">
+              This site gathers the current Spacekime videos, audio, diagrams, and papers into a single GitHub Pages experience so a visitor can move from the big-picture architecture to the supporting documents without leaving the browser.
+            </p>
+            <p>
+              Across the collection, the project appears to explore Spacekime as a conceptual framework with extensions into incompleteness, collapse, consciousness, and theology. The homepage now starts with a visual overview, then moves into the architecture carousel, media, and paper library.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="#architecture">View Architecture Carousel</a>
+              <a class="button button-secondary" href="#papers">Read the Papers</a>
+            </div>
           </div>
+
+          <aside class="hero-panel">
+            <div class="stats-list" aria-label="Site contents">
+              <div>
+                <span class="stat-number">15</span>
+                <span class="stat-label">architecture pages in the homepage carousel</span>
+              </div>
+              <div>
+                <span class="stat-number">3</span>
+                <span class="stat-label">built-in media players for videos and audio</span>
+              </div>
+              <div>
+                <span class="stat-number">5</span>
+                <span class="stat-label">papers in the inline reader library</span>
+              </div>
+            </div>
+            <p class="panel-note">
+              The architecture deck is featured in the carousel section below, while the paper library opens each PDF in its own inline browser viewer with a separate download option.
+            </p>
+          </aside>
         </div>
 
-        <aside class="hero-panel">
-          <div class="stats-list" aria-label="Site contents">
-            <div>
-              <span class="stat-number">15</span>
-              <span class="stat-label">architecture pages in the homepage carousel</span>
-            </div>
-            <div>
-              <span class="stat-number">3</span>
-              <span class="stat-label">built-in media players for videos and audio</span>
-            </div>
-            <div>
-              <span class="stat-number">6</span>
-              <span class="stat-label">PDF viewer pages with inline reading and download options</span>
-            </div>
-          </div>
-          <p class="panel-note">
-            The paper links open dedicated viewer pages with browser-native PDF viewing, plus a separate download button for anyone who wants the file directly.
-          </p>
-        </aside>
+        <div class="diagram-grid overview-diagrams">
+          <figure class="diagram-card">
+            <img src="spacekime_diagram1.png" alt="Spacekime diagram 1">
+            <figcaption>Diagram 1</figcaption>
+          </figure>
+          <figure class="diagram-card">
+            <img src="spacekime_diagram2.png" alt="Spacekime diagram 2">
+            <figcaption>Diagram 2</figcaption>
+          </figure>
+        </div>
       </section>
 
       <section class="section-card architecture-section" id="architecture">
@@ -89,25 +102,6 @@
             </div>
           </div>
           <button class="carousel-arrow" type="button" data-carousel-next aria-label="Show next architecture page">&rarr;</button>
-        </div>
-      </section>
-
-      <section class="section-card">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Visual References</p>
-            <h2>Project Diagrams</h2>
-          </div>
-        </div>
-        <div class="diagram-grid">
-          <figure class="diagram-card">
-            <img src="spacekime_diagram1.png" alt="Spacekime diagram 1">
-            <figcaption>Diagram 1</figcaption>
-          </figure>
-          <figure class="diagram-card">
-            <img src="spacekime_diagram2.png" alt="Spacekime diagram 2">
-            <figcaption>Diagram 2</figcaption>
-          </figure>
         </div>
       </section>
 
@@ -162,23 +156,13 @@
           </div>
         </div>
         <p class="section-intro">
-          Each paper opens in its own viewer page with the PDF embedded in-browser. A separate download button is included on both the homepage card and the viewer page.
+          Each paper opens in its own viewer page with the PDF embedded in-browser. The architecture deck now lives above in the carousel section, while the paper library below focuses on the five written papers.
         </p>
         <div class="paper-grid">
           <article class="paper-card">
-            <p class="paper-type">Architecture Deck</p>
-            <h3>The Spacekime Architecture</h3>
-            <p>A 15-page visual overview of the project structure and presentation flow.</p>
-            <div class="paper-actions">
-              <a class="button button-primary" href="papers/the-spacekime-architecture.html">Read Inline</a>
-              <a class="button button-ghost" href="The_Spacekime_Architecture.pdf" download>Download PDF</a>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <p class="paper-type">Working Paper</p>
-            <h3>Spacetime Incompleteness</h3>
-            <p>A paper focused on incompleteness as it relates to the broader Spacekime framework.</p>
+            <p class="paper-type">Paper</p>
+            <h3>Godel and Schrodinger</h3>
+            <p>A paper connecting incompleteness and Schrodinger-style questions within the broader Spacekime framework.</p>
             <div class="paper-actions">
               <a class="button button-primary" href="papers/spacetime-incompleteness.html">Read Inline</a>
               <a class="button button-ghost" href="Spacetime_Incompleteness.pdf" download>Download PDF</a>
@@ -186,7 +170,27 @@
           </article>
 
           <article class="paper-card">
-            <p class="paper-type">Working Paper</p>
+            <p class="paper-type">Paper</p>
+            <h3>Spacekime and Schrodinger</h3>
+            <p>A paper that places a Schrodinger-style thought experiment directly inside the Spacekime framework.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/schrodinger-in-spacekime.html">Read Inline</a>
+              <a class="button button-ghost" href="Schrodinger_in_Spacekime_3-6-26.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Paper</p>
+            <h3>Collapsehedron</h3>
+            <p>A shorter paper that extends the project library with a collapsehedron-focused note.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/collapsehedron-paper.html">Read Inline</a>
+              <a class="button button-ghost" href="collapsehedron_paper.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Paper</p>
             <h3>Spacekime and Consciousness</h3>
             <p>A focused paper connecting Spacekime with questions around consciousness.</p>
             <div class="paper-actions">
@@ -196,32 +200,12 @@
           </article>
 
           <article class="paper-card">
-            <p class="paper-type">Working Paper</p>
+            <p class="paper-type">Paper</p>
             <h3>Spacekime and Theology</h3>
             <p>A companion paper extending the project into theological interpretation.</p>
             <div class="paper-actions">
               <a class="button button-primary" href="papers/spacekime-and-theology.html">Read Inline</a>
               <a class="button button-ghost" href="Spacekime_and_Theology.pdf" download>Download PDF</a>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <p class="paper-type">Working Note</p>
-            <h3>Schrodinger in Spacekime</h3>
-            <p>A March 6, 2026 paper that frames a Schrodinger-style thought experiment within Spacekime.</p>
-            <div class="paper-actions">
-              <a class="button button-primary" href="papers/schrodinger-in-spacekime.html">Read Inline</a>
-              <a class="button button-ghost" href="Schrodinger_in_Spacekime_3-6-26.pdf" download>Download PDF</a>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <p class="paper-type">Working Note</p>
-            <h3>Collapsehedron Paper</h3>
-            <p>A shorter PDF that sits alongside the broader Spacekime paper library.</p>
-            <div class="paper-actions">
-              <a class="button button-primary" href="papers/collapsehedron-paper.html">Read Inline</a>
-              <a class="button button-ghost" href="collapsehedron_paper.pdf" download>Download PDF</a>
             </div>
           </article>
         </div>

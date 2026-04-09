@@ -142,6 +142,11 @@ main {
   pointer-events: none;
 }
 
+.overview-section {
+  display: grid;
+  gap: 1.4rem;
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.9fr);
@@ -301,11 +306,13 @@ figcaption {
 .carousel-stage {
   display: grid;
   gap: 1rem;
+  width: min(100%, 900px);
+  margin: 0 auto;
 }
 
 .carousel-frame {
   margin: 0;
-  min-height: min(60vw, 42rem);
+  min-height: 0;
   padding: 0.8rem;
   border: 1px solid rgba(240, 183, 119, 0.2);
   border-radius: calc(var(--radius-md) + 6px);
@@ -314,7 +321,9 @@ figcaption {
 
 .carousel-image {
   width: 100%;
-  height: min(54vw, 38rem);
+  height: auto;
+  max-height: min(62vh, 34rem);
+  aspect-ratio: 1376 / 768;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
@@ -389,6 +398,10 @@ figcaption {
 
 .diagram-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.overview-diagrams {
+  margin-top: 0.2rem;
 }
 
 .diagram-card {
@@ -506,6 +519,10 @@ figcaption {
   .diagram-grid {
     grid-template-columns: 1fr;
   }
+
+  .carousel-stage {
+    width: min(100%, 760px);
+  }
 }
 
 @media (max-width: 760px) {
@@ -543,6 +560,10 @@ figcaption {
   .carousel-image {
     min-height: 0;
     height: auto;
+  }
+
+  .carousel-image {
+    max-height: 50vh;
   }
 
   .paper-frame {
