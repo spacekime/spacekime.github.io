@@ -156,7 +156,8 @@ main {
 }
 
 .hero-copy {
-  max-width: 68rem;
+  width: 100%;
+  max-width: none;
 }
 
 .eyebrow {
