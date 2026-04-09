@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spacekime Project</title>
+  <meta name="description" content="A GitHub Pages site for the Spacekime project, featuring overview text, architecture visuals, media, and inline paper viewers.">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="site-mark" href="#top">Spacekime</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#media">Media</a>
+        <a href="#papers">Papers</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-card" id="overview">
+        <div class="hero-copy">
+          <p class="eyebrow">Research Hub</p>
+          <h1>Spacekime project materials in one place.</h1>
+          <p class="lead">
+            This site gathers the current Spacekime videos, audio, diagrams, and papers into a single GitHub Pages experience so a visitor can move from the big-picture architecture to the supporting documents without leaving the browser.
+          </p>
+          <p>
+            Across the collection, the project appears to explore Spacekime as a conceptual framework with extensions into structure, incompleteness, collapse, consciousness, and theology. The homepage is organized to help a first-time reader start visually, then move into talks, audio, and the longer papers.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="#architecture">View Architecture Carousel</a>
+            <a class="button button-secondary" href="#papers">Read the Papers</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="stats-list" aria-label="Site contents">
+            <div>
+              <span class="stat-number">15</span>
+              <span class="stat-label">architecture pages in the homepage carousel</span>
+            </div>
+            <div>
+              <span class="stat-number">3</span>
+              <span class="stat-label">built-in media players for videos and audio</span>
+            </div>
+            <div>
+              <span class="stat-number">6</span>
+              <span class="stat-label">PDF viewer pages with inline reading and download options</span>
+            </div>
+          </div>
+          <p class="panel-note">
+            The paper links open dedicated viewer pages with browser-native PDF viewing, plus a separate download button for anyone who wants the file directly.
+          </p>
+        </aside>
+      </section>
+
+      <section class="section-card architecture-section" id="architecture">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Architecture Carousel</p>
+            <h2>The Spacekime Architecture</h2>
+          </div>
+          <div class="section-actions">
+            <a class="button button-secondary" href="papers/the-spacekime-architecture.html">Open Inline PDF Viewer</a>
+            <a class="button button-ghost" href="The_Spacekime_Architecture.pdf" download>Download PDF</a>
+          </div>
+        </div>
+        <p class="section-intro">
+          The homepage carousel cycles through all 15 pages of <em>The Spacekime Architecture</em>. It auto-advances, supports previous and next controls, and can be paused by hovering or focusing on the controls.
+        </p>
+
+        <div class="carousel-shell" data-carousel>
+          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Show previous architecture page">&larr;</button>
+          <div class="carousel-stage">
+            <figure class="carousel-frame">
+              <img
+                class="carousel-image"
+                data-carousel-image
+                src="assets/img/architecture/page-01.jpg"
+                alt="The Spacekime Architecture page 1 of 15"
+              >
+            </figure>
+            <div class="carousel-meta">
+              <p class="carousel-caption" data-carousel-caption aria-live="polite">Page 1 of 15</p>
+              <div class="carousel-dots" data-carousel-dots aria-label="Architecture page selector"></div>
+            </div>
+          </div>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Show next architecture page">&rarr;</button>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Visual References</p>
+            <h2>Project Diagrams</h2>
+          </div>
+        </div>
+        <div class="diagram-grid">
+          <figure class="diagram-card">
+            <img src="spacekime_diagram1.png" alt="Spacekime diagram 1">
+            <figcaption>Diagram 1</figcaption>
+          </figure>
+          <figure class="diagram-card">
+            <img src="spacekime_diagram2.png" alt="Spacekime diagram 2">
+            <figcaption>Diagram 2</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-card" id="media">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Media Library</p>
+            <h2>Videos and Audio</h2>
+          </div>
+        </div>
+        <p class="section-intro">
+          The built-in players below keep the talks and audio inside the page, which is especially useful on GitHub Pages where you want a visitor to stay in context while exploring the project.
+        </p>
+        <div class="media-grid">
+          <article class="media-card">
+            <p class="media-type">Video</p>
+            <h3>The Spacekime Framework</h3>
+            <p>A direct video entry point for the project framework.</p>
+            <video controls preload="metadata">
+              <source src="The_Spacekime_Framework.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </article>
+
+          <article class="media-card">
+            <p class="media-type">Video</p>
+            <h3>Spacekime: A Hidden Reality?</h3>
+            <p>A second video presentation that can sit alongside the framework talk for comparison.</p>
+            <video controls preload="metadata">
+              <source src="Spacekime__A_Hidden_Reality_.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </article>
+
+          <article class="media-card">
+            <p class="media-type">Audio</p>
+            <h3>Spacekime, Consciousness, and Theology</h3>
+            <p>An audio companion that extends the project into consciousness and theology.</p>
+            <audio controls preload="metadata">
+              <source src="Spacekime,_consciousness,_and_theology.m4a" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-card" id="papers">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Paper Library</p>
+            <h2>Inline PDF Readers</h2>
+          </div>
+        </div>
+        <p class="section-intro">
+          Each paper opens in its own viewer page with the PDF embedded in-browser. A separate download button is included on both the homepage card and the viewer page.
+        </p>
+        <div class="paper-grid">
+          <article class="paper-card">
+            <p class="paper-type">Architecture Deck</p>
+            <h3>The Spacekime Architecture</h3>
+            <p>A 15-page visual overview of the project structure and presentation flow.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/the-spacekime-architecture.html">Read Inline</a>
+              <a class="button button-ghost" href="The_Spacekime_Architecture.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Working Paper</p>
+            <h3>Spacetime Incompleteness</h3>
+            <p>A paper focused on incompleteness as it relates to the broader Spacekime framework.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/spacetime-incompleteness.html">Read Inline</a>
+              <a class="button button-ghost" href="Spacetime_Incompleteness.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Working Paper</p>
+            <h3>Spacekime and Consciousness</h3>
+            <p>A focused paper connecting Spacekime with questions around consciousness.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/spacekime-and-consciousness.html">Read Inline</a>
+              <a class="button button-ghost" href="Spacekime_and_Consciousness.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Working Paper</p>
+            <h3>Spacekime and Theology</h3>
+            <p>A companion paper extending the project into theological interpretation.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/spacekime-and-theology.html">Read Inline</a>
+              <a class="button button-ghost" href="Spacekime_and_Theology.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Working Note</p>
+            <h3>Schrodinger in Spacekime</h3>
+            <p>A March 6, 2026 paper that frames a Schrodinger-style thought experiment within Spacekime.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/schrodinger-in-spacekime.html">Read Inline</a>
+              <a class="button button-ghost" href="Schrodinger_in_Spacekime_3-6-26.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <p class="paper-type">Working Note</p>
+            <h3>Collapsehedron Paper</h3>
+            <p>A shorter PDF that sits alongside the broader Spacekime paper library.</p>
+            <div class="paper-actions">
+              <a class="button button-primary" href="papers/collapsehedron-paper.html">Read Inline</a>
+              <a class="button button-ghost" href="collapsehedron_paper.pdf" download>Download PDF</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Spacekime project website for GitHub Pages.</p>
+      <p>&copy; <span data-current-year></span> Spacekime</p>
+    </footer>
+  </div>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
