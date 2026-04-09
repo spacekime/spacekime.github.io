@@ -149,10 +149,14 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.9fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.4rem;
   align-items: stretch;
   min-height: 26rem;
+}
+
+.hero-copy {
+  max-width: 68rem;
 }
 
 .eyebrow {
@@ -408,6 +412,19 @@ figcaption {
   padding: 0.8rem;
 }
 
+.diagram-link {
+  display: block;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.diagram-link:hover,
+.diagram-link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
+}
+
 .diagram-card img {
   aspect-ratio: 16 / 10;
   object-fit: cover;
@@ -510,7 +527,6 @@ figcaption {
 }
 
 @media (max-width: 1024px) {
-  .hero,
   .media-grid,
   .paper-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -540,7 +556,6 @@ figcaption {
     flex-direction: column;
   }
 
-  .hero,
   .media-grid,
   .paper-grid {
     grid-template-columns: 1fr;
