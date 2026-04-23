@@ -67,7 +67,7 @@ foreach ($paper in $enabledPapers) {
   $ref = if ([string]::IsNullOrWhiteSpace($paper.ref)) { "main" } else { $paper.ref }
   $encodedPath = Get-EncodedGitHubPath -Path $paper.sourcePath
   $encodedRef = [Uri]::EscapeDataString($ref)
-  $downloadUrl = "https://api.github.com/repos/$($paper.repository)/contents/$encodedPath?ref=$encodedRef"
+  $downloadUrl = "https://api.github.com/repos/$($paper.repository)/contents/${encodedPath}?ref=${encodedRef}"
   $destinationPath = Join-Path $OutputRoot $paper.sitePath
   $destinationDirectory = Split-Path -Parent $destinationPath
 
