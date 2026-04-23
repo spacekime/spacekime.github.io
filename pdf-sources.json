@@ -1,0 +1,60 @@
+{
+  "papers": [
+    {
+      "name": "The Spacekime Architecture",
+      "enabled": false,
+      "repository": "spacekime/replace-with-architecture-repo",
+      "ref": "main",
+      "sourcePath": "The_Spacekime_Architecture.pdf",
+      "sitePath": "The_Spacekime_Architecture.pdf"
+    },
+    {
+      "name": "Spacetime Incompleteness",
+      "enabled": true,
+      "repository": "welch-lab/markdown_pandoc_paper_template",
+      "ref": "main",
+      "sourcePath": "output/paper.pdf",
+      "sitePath": "Spacetime_Incompleteness.pdf"
+    },
+    {
+      "name": "Schrodinger in Spacekime",
+      "enabled": false,
+      "repository": "spacekime/replace-with-schrodinger-repo",
+      "ref": "main",
+      "sourcePath": "Schrodinger_in_Spacekime_3-6-26.pdf",
+      "sitePath": "Schrodinger_in_Spacekime_3-6-26.pdf"
+    },
+    {
+      "name": "Einstein in Spacekime",
+      "enabled": false,
+      "repository": "spacekime/replace-with-einstein-repo",
+      "ref": "main",
+      "sourcePath": "einstein-in-spacekime.pdf",
+      "sitePath": "papers/einstein-in-spacekime.pdf"
+    },
+    {
+      "name": "The Collapsehedron",
+      "enabled": false,
+      "repository": "spacekime/replace-with-collapsehedron-repo",
+      "ref": "main",
+      "sourcePath": "collapsehedron_paper.pdf",
+      "sitePath": "collapsehedron_paper.pdf"
+    },
+    {
+      "name": "Spacekime and Consciousness",
+      "enabled": false,
+      "repository": "spacekime/replace-with-consciousness-repo",
+      "ref": "main",
+      "sourcePath": "Spacekime_and_Consciousness.pdf",
+      "sitePath": "Spacekime_and_Consciousness.pdf"
+    },
+    {
+      "name": "Spacekime and Theology",
+      "enabled": false,
+      "repository": "spacekime/replace-with-theology-repo",
+      "ref": "main",
+      "sourcePath": "Spacekime_and_Theology.pdf",
+      "sitePath": "Spacekime_and_Theology.pdf"
+    }
+  ]
+}
