@@ -18,7 +18,7 @@
     },
     {
       "name": "Schrodinger in Spacekime",
-      "enabled": false,
+      "enabled": true,
       "repository": "welch-lab/schrodinger-in-spacekime",
       "ref": "main",
       "sourcePath": "output/paper.pdf",
