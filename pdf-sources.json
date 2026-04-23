@@ -19,17 +19,17 @@
     {
       "name": "Schrodinger in Spacekime",
       "enabled": false,
-      "repository": "spacekime/replace-with-schrodinger-repo",
+      "repository": "welch-lab/schrodinger-in-spacekime",
       "ref": "main",
-      "sourcePath": "Schrodinger_in_Spacekime_3-6-26.pdf",
-      "sitePath": "Schrodinger_in_Spacekime_3-6-26.pdf"
+      "sourcePath": "output/paper.pdf",
+      "sitePath": "Schrodinger_in_Spacekime.pdf"
     },
     {
       "name": "Einstein in Spacekime",
-      "enabled": false,
-      "repository": "spacekime/replace-with-einstein-repo",
+      "enabled": true,
+      "repository": "welch-lab/spacekime-gravity",
       "ref": "main",
-      "sourcePath": "einstein-in-spacekime.pdf",
+      "sourcePath": "output/paper.pdf",
       "sitePath": "papers/einstein-in-spacekime.pdf"
     },
     {
