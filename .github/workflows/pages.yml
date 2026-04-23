@@ -51,6 +51,19 @@ jobs:
         run: |
           ./scripts/sync-pdfs.ps1 -ManifestPath ./pdf-sources.json -OutputRoot ./_site
 
+      - name: Install PDF rasterization tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Generate architecture carousel assets
+        shell: pwsh
+        run: |
+          ./scripts/build-architecture-carousel.ps1 `
+            -PdfPath ./_site/The_Spacekime_Architecture.pdf `
+            -OutputImageDir ./_site/assets/img/architecture `
+            -ManifestPath ./_site/assets/data/architecture-pages.json
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
