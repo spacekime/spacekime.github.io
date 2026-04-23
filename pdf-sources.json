@@ -34,10 +34,10 @@
     },
     {
       "name": "The Collapsehedron",
-      "enabled": false,
-      "repository": "spacekime/replace-with-collapsehedron-repo",
+      "enabled": true,
+      "repository": "welch-lab/collapsehedron_paper",
       "ref": "main",
-      "sourcePath": "collapsehedron_paper.pdf",
+      "sourcePath": "output/paper.pdf",
       "sitePath": "collapsehedron_paper.pdf"
     },
     {
