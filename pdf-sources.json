@@ -33,6 +33,14 @@
       "sitePath": "papers/einstein-in-spacekime.pdf"
     },
     {
+      "name": "Time as Finite Participation in a Universe of Possibility",
+      "enabled": false,
+      "repository": "spacekime/replace-with-possibility-time-and-eternity-repo",
+      "ref": "main",
+      "sourcePath": "output/paper.pdf",
+      "sitePath": "papers/possibility-time-and-eternity.pdf"
+    },
+    {
       "name": "The Collapsehedron",
       "enabled": true,
       "repository": "welch-lab/collapsehedron_paper",
